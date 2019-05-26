@@ -6,6 +6,16 @@ One of the main concerns when using scripting languages is that all knowledge is
 
 Binarizer will accomplish it with a simple yet powerful approach: wrap a given script into a go binary, ready to be used in the target platform
 
+## Requirements
+
+This project is already builded in Releases (see releases section to download a binary compilation). 
+
+However, to be able to work, it requires go development environment to run (it compiles go binaries with scripts embedded, so it requires go environment to do that compilation). To install it in your system, please go to official Go install page
+
+https://golang.org/doc/install
+
+Note: Binarizer project requires go dev environment to compile final binaries. That final binaries DO NOT require that environment, and they are safe to be run in the environment that you've compiled them for
+
 ## Configuration options
 
 - -script-type: The scripting language selected. Available values are {python, bash}
