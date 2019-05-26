@@ -45,3 +45,11 @@ Encrypted basic binary
 binarizer -script-type bash -script-file myfile.sh -binary-path /tmp/mybinary -encrypt
 BIN_KEY=<key output from previous step> /tmp/mybinary
 ```
+
+## Further information
+
+Type --help to your binarizer to get further help on all available options
+
+```
+binarizer --help
+```
